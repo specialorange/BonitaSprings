@@ -8,6 +8,10 @@
 <!-- #EndEditable" -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" title="CSS" href="styles.css" media="screen" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- here -->
+<script src="js/galleria/galleria-1.2.9.min.js"></script>
 <style type="text/css">.style1 {
 	color: #7C8034;
 }
@@ -79,7 +83,7 @@ year=year.getYear();
 if (year<1900) year+=1900;
 document.write(year);
 //-->
-</SCRIPT>:All Rights Reserved    <a href="disclaimer.htm">Terms & Conditions</a>    Site by <a href="http://www.papyrusdocument.com" title="Cape Coral website design">Papyrus</a><br/><br/>
+</SCRIPT>:All Rights Reserved    <a href="disclaimer.htm">Terms & Conditions</a><br/><br/>
 <!-- AddThis Button BEGIN -->
 <div id="addthis" class="addthis_toolbox addthis_default_style" style="float:right;">
 <a class="addthis_button_preferred_1"></a>
