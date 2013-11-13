@@ -46,8 +46,9 @@ Library in southwest Florida</title>
 <META HTTP-EQUIV="Expires" CONTENT="-1">
 </head>
 <body>
-<div id="bird-in"></div>
-<div id="support"><a href="help.htm"> <img alt="" class="auto-style2" height="74" src="images/support.png" style="float: right" width="338" /></a></div>
+
+<?php include 'shared/top.php'; ?>
+
 <div id="main">
   <div id="wrap"> <!-- #BeginEditable "content" -->
     <div id="content">
@@ -55,9 +56,9 @@ Library in southwest Florida</title>
         <div class="pushpintop"></div>
         <div class="pushpinmid">
           <h3>&nbsp;Past Events</h3>
-          <p > <img class="auto-style1" height="16" src="images/photo.png" width="16" /> <a href="galleries.htm">Galleries of Past Events</a></p>
-          <p ><img src="images/book.png" alt="" width="16" height="16" class="auto-style1" /><a href="2013authors.htm">2013 Author Events</a></p>
-          <p ><img class="auto-style1" height="16" src="images/book.png" width="16" /> <a href="2012authors.htm">2012 Author Luncheons</a></p>
+          <p > <img class="auto-style1" height="16" src="images/photo.png" width="16" /> <a href="galleries.php">Galleries of Past Events</a></p>
+          <p ><img src="images/book.png" alt="" width="16" height="16" class="auto-style1" /><a href="2013authors.php">2013 Author Events</a></p>
+          <p ><img class="auto-style1" height="16" src="images/book.png" width="16" /> <a href="2012authors.php">2012 Author Luncheons</a></p>
         </div>
         <div class="pushpinbot"></div>
       </div>
@@ -81,38 +82,13 @@ Library in southwest Florida</title>
     </div>
     <!-- #EndEditable --> <br />
   </div>
-  <div id="nav" style="margin-top:20px;">
-    <div class="brown">
-      <div class="topic">What's Happening</div>
-      <a href="calendar.htm" title="calendar of events and meetings">Calendar </a> <a href="book-sales.htm" title="Bonita Springs book sales">Book Sales </a> <a href="events.htm" title="bonita springs events">Events </a> <a href="luncheons.htm" title="bonita springs author luncheons">Luncheons </a> <a href="galleries.htm" title="galleries of past events">Photo Galleries</a> </div>
-    <br/>
-    <div class="blue">
-      <div class="topic">How to Help</div>
-      <a href="membership.htm">Membership</a> <a href="help.htm">Donate</a> <a href="volunteer.htm">Volunteer</a> <a href="purchase.htm">Products</a> </div>
-    <br/>
-    <div class="orange">
-      <div class="topic">Who We Are</div>
-      <a href="about.htm">Mission</a> <a href="board.htm">Board</a> <a href="contact.htm">Contact</a> <a href="accomplishments.htm">Accomplishments</a> <a href="default.htm">Home</a><br/>
-    </div>
-    <br />
-  </div>
+
+<?php include 'shared/menu.php'; ?>
+
 </div>
-<div id="footer-in"> Copyright
-  <SCRIPT>
-<!--
-var year=new Date();
-year=year.getYear();
-if (year<1900) year+=1900;
-document.write(year);
-//-->
-</SCRIPT>
-  :All Rights Reserved <a href="disclaimer.htm">Terms & Conditions</a><br/><br/>
-  <!-- AddThis Button BEGIN -->
-  <div id="addthis" class="addthis_toolbox addthis_default_style" style="float:right;"> <a class="addthis_button_preferred_1"></a> <a class="addthis_button_preferred_2"></a> <a class="addthis_button_preferred_3"></a> <a class="addthis_button_preferred_4"></a> <a class="addthis_button_compact"></a> <a class="addthis_counter addthis_bubble_style"></a> </div>
-  <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=bonitaspringsfriends"></script>
-  <!-- AddThis Button END -->
-</div>
+
+<?php include 'shared/footer.php'; ?>
+
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

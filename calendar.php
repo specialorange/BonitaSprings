@@ -1,18 +1,18 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "master.dwt" -->
 <head>
 <!-- #BeginEditable metas" -->
-<title>News from the Friends of Bonita Springs Public Library, Inc. in southwest Florida</title>
+
+<title>Calendar of Events for the Friends of Bonita Springs Public Library</title>
 <meta name="keywords" content="library friends, newsletters"/>
 <meta name="description" content="Newsletters from the Friends of Bonita Springs Public Library, Inc. in southwest Florida."/>
 <!-- #EndEditable" -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" title="CSS" href="styles.css" media="screen" />
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<!-- here -->
-<script src="js/galleria/galleria-1.2.9.min.js"></script>
-<style type="text/css">.style1 {
+<style type="text/css">
+.style1 {
 	color: #7C8034;
 }
 .style2 {
@@ -36,17 +36,11 @@
 <div id="main">
 <div id="wrap">
 <!-- #BeginEditable "content" -->
+
 <div id="content">
-<div id="sidebar">
-<div id="insidebar">
-<h2>Sidebar</h2>
-<p>Content<br />
-</p></div>
-</div>
-<h1>Headline</h1>
-<p>The Friends of Bonita Springs Public Library, Inc. is a non-profit 
-organization supporting the library located in Bonita Springs, Florida. </p>
-<br />
+<h1>
+Calendar</h1>
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=bonitaspringsfriends%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="750" height="500" frameborder="0" scrolling="no"></iframe><br />
 </div>
 <!-- #EndEditable -->
 <br />
@@ -68,4 +62,5 @@ var pageTracker = _gat._getTracker("UA-16243304-1");
 pageTracker._trackPageview();
 } catch(err) {}</script>
 </body>
+<!-- #EndTemplate -->
 </html>

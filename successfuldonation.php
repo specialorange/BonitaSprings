@@ -1,18 +1,49 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+<!-- #BeginTemplate "master.dwt" -->
+
+
+
 <head>
 <!-- #BeginEditable metas" -->
-<title>News from the Friends of Bonita Springs Public Library, Inc. in southwest Florida</title>
-<meta name="keywords" content="library friends, newsletters"/>
-<meta name="description" content="Newsletters from the Friends of Bonita Springs Public Library, Inc. in southwest Florida."/>
+
+<title>Thank You for Your Donation</title>
+
+<meta name="keywords" content="volunteer opportunities, donate, bonita springs"/>
+
+<meta name="description" content="Help the Friends by donating, volunteering and more."/>
+
+<style type="text/css">
+.style2 {
+	margin-top: 19px;
+}
+.auto-style1 {
+	text-align: left;
+}
+.auto-style2 {
+	margin-right: 30px;
+}
+.auto-style5 {
+	border-style: solid;
+	border-width: 2px;
+	margin-right: 23px;
+	margin-bottom: 212px;
+}
+.auto-style6 {
+	color: #FEFBFB;
+}
+</style>
+
 <!-- #EndEditable" -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" title="CSS" href="styles.css" media="screen" />
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<!-- here -->
-<script src="js/galleria/galleria-1.2.9.min.js"></script>
-<style type="text/css">.style1 {
+<style type="text/css">
+.style1 {
 	color: #7C8034;
 }
 .style2 {
@@ -37,20 +68,12 @@
 <div id="wrap">
 <!-- #BeginEditable "content" -->
 <div id="content">
-<div id="sidebar">
-<div id="insidebar">
-<h2>Sidebar</h2>
-<p>Content<br />
-</p></div>
+	<h1 ><br />THANK YOU!</h1>
+	<p>The Friends of the Bonita Springs Public Library, Inc. is a non-profit organization in Florida. Donations are tax deductible as allowed by law.</p>
+	<p>Thank you greatly for your donation to help Bonita Springs Public Library!  Your donation will go a long way to helping our community.</p>
 </div>
-<h1>Headline</h1>
-<p>The Friends of Bonita Springs Public Library, Inc. is a non-profit 
-organization supporting the library located in Bonita Springs, Florida. </p>
-<br />
 </div>
 <!-- #EndEditable -->
-<br />
-</div>
 
 <?php include 'shared/menu.php'; ?>
 
@@ -68,4 +91,5 @@ var pageTracker = _gat._getTracker("UA-16243304-1");
 pageTracker._trackPageview();
 } catch(err) {}</script>
 </body>
+<!-- #EndTemplate -->
 </html>
