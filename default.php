@@ -60,10 +60,10 @@
 	</script>
 
 	<ul id="slideshow" >
-	<!--   <li><img src="images/home/librarysalef13.jpg" alt="Library Sale" style="border:0px"/>
-	  			<div class="panel-overlay"><h3><a href="purchase.php">Book Sale October 25 & 26 >>></a></h3></div>
+	  <li><img src="images/home/membership1.jpg" alt="Library Sale" style="border:0px"/>
+	  			<div class="panel-overlay"><h3><a href="membership.php">Paypal donations and 2014 memberships now available.  Get your membership today!</a></h3></div>
 	  </li>
-	 -->
+	
 	  <li><img src="images/home/book-nook.jpg" alt="Books Nook" style="border:0px"/>
 	  			<div class="panel-overlay"><h3><a href="purchase.php">Book Nook Open Everyday! >>></a></h3></div>
 	  </li>
