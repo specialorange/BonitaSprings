@@ -69,34 +69,44 @@ Library in southwest Florida</title>
         <p >We support the library with a number of events through-out the year, including our popular book sales and author luncheons.</p>
         
         <h3 >2014 Upcoming Events</h3>
+        <hr>
           <?php
             if (time() < strtotime("01/23/2014 12:01AM")) {
-              echo "<p>Jan. 23 Author Luncheon, 11:30 am, Pelican Nest Country Club</p>";
+              echo "<p>Jan. 23 Author Luncheon, 11:30 am, Pelican Nest Country Club</p><hr>";
             }
           ?>  
           <?php
             if (time() < strtotime("02/11/2014 12:01AM")) {
-              echo "<p>Feb. 11 Florida Pirates Lecture, 2:00 pm, Library Meeting Room</p>";
+              echo "<p>Feb. 11 Florida Pirates Lecture, 2:00 pm, Library Meeting Room</p><hr>";
             }
           ?>  
           <?php
             if (time() < strtotime("02/20/2014 12:01AM")) {
-              echo "<p>Feb. 20 Morro Castle Cruise Ship Lecture, 2:00 pm, Library Meeting Room</p>";
+              echo "<p>Feb. 20 Morro Castle Cruise Ship Lecture, 2:00 pm, Library Meeting Room</p>
+              <p style=\"padding-left: 15px\">Reservations required : Reservations can be made at the Library with <a href=\"pdfs/LuncheonRes.pdf\">this form</a> and a check payment.</p><hr>";
             }
           ?>  
           <?php
             if (time() < strtotime("02/27/2014 12:01AM")) {
-              echo "<p>Feb. 27 Author Luncheon, 11:30 am, Pelican Nest Country Club</p>";
+              echo "<p>Feb. 27 Author Luncheon: Sara Williams, 11:30 am, Pelican Nest Country Club</p>
+              <p style=\"padding-left: 15px\">Reservations required : Reservations can be made at the Library with <a href=\"pdfs/LuncheonRes.pdf\">this form</a> and a check payment.</p><hr>";
             }
           ?>  
           <?php
             if (time() < strtotime("03/15/2014 12:01AM")) {
-              echo "<p>Mar. 15 Reading Festival, 10:00 am to 4:00 pm, Harborside Event Center, Ft. Myers</p>";
+              echo "<p>Mar. 15 Reading Festival, 10:00 am to 4:00 pm, Harborside Event Center, Ft. Myers</p>
+              <p style=\"padding-left: 15px\">Event is free</p><hr>";
             }
           ?>  
           <?php
             if (time() < strtotime("04/10/2014 12:01AM")) {
-              echo "<p>April 10 Death and Dessert, 2:00 pm to 4:00 pm, Library Meeting Room</p>";
+              echo "<p>April 10 Death and Dessert, 2:00 pm to 4:00 pm, Library Meeting Room</p>
+              <p style=\"padding-left: 15px\">Our guest authors will be:
+              <br>Bennett Shelfer \"Drawing Dead\"
+              <br>Ward Larsen \"Fly By Night\"
+              <br>Lisa Black (formerly known as Elizabeth Becka) \"The Price of Innocence\"
+              <br>
+              <br>Following the panel discussion our guests will have a chance to chat with the authors, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p><hr>";
             }
           ?>  
       </div>

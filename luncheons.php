@@ -95,13 +95,23 @@ Library in southwest Florida</title>
 <p>The first book of the Matt Royal series, Longboat Blues, became a regional bestseller following its publication in November 2005. His second novel, the popular Murder Key was published in the fall of 2006 and was an immediate hit. Blood Island was released on December 1, 2008, and within three weeks went to a second printing. The book was a finalist for the U.S.A. Book News National Best Book of 2008 in the Mystery/Suspense category
 Terry and his wife, Jean, live in Longboat Key and Maitland, Florida.</p>
  -->
-<h3>Sara Williams : February 27, 2014</h3>
-<br>
-<img src="images/authors/sarawilliams.jpg" width="200px">
-<p>Sara Williams is the author of three mystery novels, the most recent, One Big Itch set in Hawaii. The second, The Serenoa Scandal takes place in Florida. Her first novel, The Don Juan Con, is a cross- country chase from Florida to Washington State.</p>
-<p>Ms. Williams was born in Deer Park, Washington just north of Spokane and considers schooling on both eastern and western campuses an important part of her education. She attended The George Washington University in Washington D.C. and earned her B.A. degree in English literature at the University of Washington, Seattle.</p>
-<p>Williams met and married a N.Y. magazine editor and they settled in Brooklyn Heights to write novels. Due to her husband’s untimely death, Williams bounced back to Seattle and took a job as P.R. Director of the Washington Dairy Commission. Shortly afterwards she met her current husband Bill at a regional advertising convention at Rosario Resort on Orcas Island in the American San Juans. They have been married some thirty years. They have two sons born on Maui, whose lives were much enriched by close relations with Bill’s older children, a daughter and two sons.</p>
-<p>The Williams’ now divide their time between a winter home in Fort Myers, where Sara had been a newspaper columnist and staff writer for many years. They have a summer residence on Orcas Island, while making frequent visits to Hawaii. They also spend considerable time at LTU Villas a resort in Negril, Jamaica owned by Bill Jr. “Jamaica Bill,” whose Cuban heritage inspired Sara’s Maya Menecal character in <b>One Big Itch</b>.</p>
+<?php
+  if (time() < strtotime("02/28/2014 12:01AM")) {
+  	echo"
+			<h3>Sara Williams : February 27, 2014</h3>
+			<br>
+			<img src=\"images/authors/sarawilliams.jpg\" width=\"200px\">
+			<p>Sara Williams is the author of three mystery novels, the most recent, One Big Itch set in Hawaii. The second, The Serenoa Scandal takes place in Florida. Her first novel, The Don Juan Con, is a cross- country chase from Florida to Washington State.</p>
+			<p>Ms. Williams was born in Deer Park, Washington just north of Spokane and considers schooling on both eastern and western campuses an important part of her education. She attended The George Washington University in Washington D.C. and earned her B.A. degree in English literature at the University of Washington, Seattle.</p>
+			<p>Williams met and married a N.Y. magazine editor and they settled in Brooklyn Heights to write novels. Due to her husband’s untimely death, Williams bounced back to Seattle and took a job as P.R. Director of the Washington Dairy Commission. Shortly afterwards she met her current husband Bill at a regional advertising convention at Rosario Resort on Orcas Island in the American San Juans. They have been married some thirty years. They have two sons born on Maui, whose lives were much enriched by close relations with Bill’s older children, a daughter and two sons.</p>
+			<p>The Williams’ now divide their time between a winter home in Fort Myers, where Sara had been a newspaper columnist and staff writer for many years. They have a summer residence on Orcas Island, while making frequent visits to Hawaii. They also spend considerable time at LTU Villas a resort in Negril, Jamaica owned by Bill Jr. “Jamaica Bill,” whose Cuban heritage inspired Sara’s Maya Menecal character in <b>One Big Itch</b>.</p>
+			";
+	} else {
+		echo"
+			<p>There are no future schedule luncheons at this time.  Check back soon to see who we have scheduled!</p>
+		";
+	}
+?>  
 
 </div>
 </div>

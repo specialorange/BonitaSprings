@@ -63,11 +63,24 @@
 	  <li><img src="images/home/membership1.jpg" alt="Memebrship" style="border:0px"/>
 	  			<div class="panel-overlay"><h3><a href="membership.php">Paypal donations and 2014 memberships now available.  Get your membership today!</a></h3></div>
 	  </li>
-	
-<!-- 	  <li><img src="images/galleries/2013/christmas/4.jpg" alt="Winter Gallery" style="border:0px"/>
-	  			<div class="panel-overlay"><h3><a href="galleries.php">Winter Holiday Gallery in memory of Ms. Nilson</a></h3></div>
-	  </li>
- -->
+<!-- Luncheon	 -->
+          <?php
+            if (time() < strtotime("02/28/2014 12:01AM")) {
+              echo "<li><img src=\"images/home/picnic-227.jpeg\" alt=\"Death and Dessert\" style=\"border:0px\"/>
+			  			<div class=\"panel-overlay\"><h3><a href=\"luncheons.php\">Author Luncheon: Sara Williams - reservations required</a></h3></div>
+						  </li>";
+            }
+          ?>  
+<!-- Event	 -->
+          <?php
+            if (time() < strtotime("04/11/2014 12:01AM")) {
+              echo "<li><img src=\"images/home/luncheon-410.jpg\" alt=\"Death and Dessert\" style=\"border:0px\"/>
+			  			<div class=\"panel-overlay\"><h3><a href=\"events.php\">Death & Dessert - reservations required</a></h3></div>
+						  </li>";
+            }
+          ?>  
+
+<!-- Booksale -->
 <!-- 	  <li><img src="images/home/booksidessale.jpg" alt="Book Sale" style="border:0px"/>
 	  			<div class="panel-overlay"><h3><a href="galleries.php">Winter Holiday Gallery in memory of Ms. Nilson</a></h3></div>
 	  </li>
