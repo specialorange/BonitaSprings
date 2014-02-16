@@ -60,10 +60,18 @@
 	</script>
 
 	<ul id="slideshow" >
-	  <li><img src="images/home/membership1.jpg" alt="Library Sale" style="border:0px"/>
+	  <li><img src="images/home/membership1.jpg" alt="Memebrship" style="border:0px"/>
 	  			<div class="panel-overlay"><h3><a href="membership.php">Paypal donations and 2014 memberships now available.  Get your membership today!</a></h3></div>
 	  </li>
 	
+<!-- 	  <li><img src="images/galleries/2013/christmas/4.jpg" alt="Winter Gallery" style="border:0px"/>
+	  			<div class="panel-overlay"><h3><a href="galleries.php">Winter Holiday Gallery in memory of Ms. Nilson</a></h3></div>
+	  </li>
+ -->
+<!-- 	  <li><img src="images/home/booksidessale.jpg" alt="Book Sale" style="border:0px"/>
+	  			<div class="panel-overlay"><h3><a href="galleries.php">Winter Holiday Gallery in memory of Ms. Nilson</a></h3></div>
+	  </li>
+ -->
 	  <li><img src="images/home/book-nook.jpg" alt="Books Nook" style="border:0px"/>
 	  			<div class="panel-overlay"><h3><a href="purchase.php">Book Nook Open Everyday! >>></a></h3></div>
 	  </li>

@@ -82,19 +82,19 @@ Library in southwest Florida</title>
 <h1>Luncheons</h1>
 
 <p >We support the library with a number of events through-out the year, including our popular book sales and author luncheons.</p>
-<h2>All luncheons are held at Pelican Nest Country Club. Sign in begins at 11:30 am and the luncheon begins promptly at noon.</h2>
+<h2>All luncheons are held at Pelican Nest Country Club. Sign in begins at 11:00 am and the luncheon begins promptly at noon.</h2>
 <p><a href="pdfs/LuncheonRes.pdf">Luncheon Reservation Form</a></p>
 <h3>Directions :</h3>
 <p>Coming from the North to Pelican's Nest Golf Club: US41 South to first light after Old 41. Turn right into Pelican Landing at Pelican's Nest Dr. Guard House will give you directions to "The Nest".</p>
 
 <p>Coming from the South: Head North on US41, cross Bonita Beach Rd. - past Bonita Bay. Go to first light after Bernwood. Turn left into Pelican Landing at Pelican's Nest Dr. (light)  Guard House will give you directions to "The Nest".</p>
 
-<h3>H. Terrell Griffin : January 23, 2014</h3>
+<!-- <h3>H. Terrell Griffin : January 23, 2014</h3>
 <p>National Best Selling author, H. Terrell Griffin has spent his adult life soldiering, studying, lawyering and writing, in that order. He was born in Waycross, Georgia, and at age twelve moved to Sanford, Florida. Upon graduation from high school, he enlisted in the U.S. Army, and after three years of active duty, began his studies at Mercer University in Macon, Georgia, where he earned degrees in history and law. Upon graduation from law school, Terry returned to Central Florida and practiced law in Orlando for 38 years until his retirement.</p>
 <img src="images/authors/terrellgriffin.jpg" width="200px">
 <p>The first book of the Matt Royal series, Longboat Blues, became a regional bestseller following its publication in November 2005. His second novel, the popular Murder Key was published in the fall of 2006 and was an immediate hit. Blood Island was released on December 1, 2008, and within three weeks went to a second printing. The book was a finalist for the U.S.A. Book News National Best Book of 2008 in the Mystery/Suspense category
 Terry and his wife, Jean, live in Longboat Key and Maitland, Florida.</p>
-
+ -->
 <h3>Sara Williams : February 27, 2014</h3>
 <br>
 <img src="images/authors/sarawilliams.jpg" width="200px">

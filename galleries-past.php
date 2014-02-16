@@ -59,6 +59,34 @@
 <div id="content">
 <h1>Past Event Galleries</h1>
 
+  <h3 >2013 Winter Holiday Event</h3>
+
+  <div id="gallery-winter" class="gallery">
+    <a href="images/galleries/2013/christmas/1.jpg">
+      <img src="images/galleries/2013/christmas/1.jpg" data-big="images/galleries/2013/christmas/1.jpg" >
+    </a>
+    <a href="images/galleries/2013/christmas/2.jpg">
+      <img src="images/galleries/2013/christmas/2.jpg" data-big="images/galleries/2013/christmas/2.jpg" >
+    </a>
+    <a href="images/galleries/2013/christmas/4.jpg">
+      <img src="images/galleries/2013/christmas/4.jpg" data-big="images/galleries/2013/christmas/4.jpg" >
+    </a>
+  </div>
+
+  <script>
+      Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+      Galleria.configure({
+          imageCrop: false  ,
+          transition: 'fade',
+          lightbox: true,
+          responsive: true,
+          autoplay: 3500
+      });
+      Galleria.run('#gallery-winter');
+  </script>
+  <p>These photos are of the Christmas tree, hand-made ornaments, and local Bonita Springs beach shells the Friends put up in the Library. Some of the ornaments are made by the first President of the Bonita Shell Club, Ms. Nilson.  Ms. Nilson, a long time supporter of the Friends, passed away some years ago, however, we still honor her by using her ornaments each year.</p>
+
+
 <h3 >2013 Beverly Lewis Author Event</h3>
 
 <div id="gallery-bev-lewis" class="gallery">

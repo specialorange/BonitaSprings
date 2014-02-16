@@ -61,7 +61,33 @@
 <div id="content">
   <h1>Event Galleries</h1>
 
-  <h3>New Galleries Will be added on the first event!  Come back soon.</h3>
+  <h3>January 2014 Author Luncheon: H. Terrell Griffin</h3>
+  <div id="gallery-griffin" class="gallery">
+    <a href="images/galleries/2014/luncheons/griffinbooks.jpg">
+      <img src="images/galleries/2014/luncheons/griffinbooks.jpg" data-big="images/galleries/2014/luncheons/griffinbooks.jpg" >
+    </a>
+    <a href="images/galleries/2014/luncheons/janes.jpg">
+      <img src="images/galleries/2014/luncheons/janes.jpg" data-big="images/galleries/2014/luncheons/janes.jpg" >
+    </a>
+    <a href="images/galleries/2014/luncheons/nesbit.jpg">
+      <img src="images/galleries/2014/luncheons/nesbit.jpg" data-big="images/galleries/2014/luncheons/nesbit.jpg" >
+    </a>
+  </div>
+  <script>
+      Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+      Galleria.configure({
+          imageCrop: false  ,
+          transition: 'fade',
+          lightbox: true,
+          responsive: true,
+          autoplay: 3500
+      });
+      Galleria.run('#gallery-griffin');
+  </script>
+  <p>Poster of H. Terrell Griffin books that he displayed at the Author Luncheon on January 23, 2014</p>
+  <p>Friends Treasurer, Bill Janes, has his book signed by the author</p>
+  <p>Luncheon attendee, David Nesbit, has his book signed by the author</p>
+
   <h4><a href="galleries-past.php">Past Event Galleries &gt;&gt;</a></h4>
 </div>
 

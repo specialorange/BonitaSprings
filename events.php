@@ -11,17 +11,17 @@ Library in southwest Florida</title>
 <meta name="description" content="Books Sales, Author Luncheons, and Progams by the Friends of Bonita Springs Public Library in southwest Florida"/>
 <style type="text/css">
 .style2 {
-	margin-top: 7px;
+  margin-top: 7px;
 }
 .style3 {
-	margin-top: 3px;
+  margin-top: 3px;
 }
 .auto-style2 {
-	vertical-align: middle;
-	margin-right: 13px;
+  vertical-align: middle;
+  margin-right: 13px;
 }
 .auto-style4 {
-	margin-right: 19px;
+  margin-right: 19px;
 }
 </style>
 <!-- #EndEditable" -->
@@ -29,17 +29,17 @@ Library in southwest Florida</title>
 <link rel="stylesheet" type="text/css" title="CSS" href="styles.css" media="screen" />
 <style type="text/css">
 .style1 {
-	color: #7C8034;
+  color: #7C8034;
 }
 .style2 {
-	border-width: 0px;
-	margin-left: 18px;
+  border-width: 0px;
+  margin-left: 18px;
 }
 .auto-style1 {
-	margin-right: 17px;
+  margin-right: 17px;
 }
 .auto-style2 {
-	border-width: 0px;
+  border-width: 0px;
 }
 </style>
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
@@ -68,16 +68,37 @@ Library in southwest Florida</title>
         <h1> Upcoming Events</h1>
         <p >We support the library with a number of events through-out the year, including our popular book sales and author luncheons.</p>
         
-        <h3 >2013 Upcoming Events</h3>
-
-        <!-- <p>Oct. 25-26  Book Sale, 9:00 am till 3:00 pm Library Meeting Room</p> -->
-        <p>Dec. 1    Dues can now be paid</p>
-        <p>Jan. 23 Author Luncheon, 11:30 am, Pelican Nest Country Club</p>
-        <p>Feb. 11   Florida Pirates Lecture, 2:00 pm, Library Meeting Room</p>
-        <p>Feb. 20 Morro Castle Cruise Ship Lecture, 2:00 pm, Library Meeting Room</p>
-        <p>Feb. 27 Author Luncheon, 11:30 am, Pelican Nest Country Club</p>
-        <p>Mar. 15   Reading Festival, 10:00 am to 4:00 pm, Harborside Event Center, Ft. Myers</p>
-        <p>April 10  Death and Dessert, 2:00 pm to 4:00 pm, Library Meeting Room</p>
+        <h3 >2014 Upcoming Events</h3>
+          <?php
+            if (time() < strtotime("01/23/2014 12:01AM")) {
+              echo "<p>Jan. 23 Author Luncheon, 11:30 am, Pelican Nest Country Club</p>";
+            }
+          ?>  
+          <?php
+            if (time() < strtotime("02/11/2014 12:01AM")) {
+              echo "<p>Feb. 11 Florida Pirates Lecture, 2:00 pm, Library Meeting Room</p>";
+            }
+          ?>  
+          <?php
+            if (time() < strtotime("02/20/2014 12:01AM")) {
+              echo "<p>Feb. 20 Morro Castle Cruise Ship Lecture, 2:00 pm, Library Meeting Room</p>";
+            }
+          ?>  
+          <?php
+            if (time() < strtotime("02/27/2014 12:01AM")) {
+              echo "<p>Feb. 27 Author Luncheon, 11:30 am, Pelican Nest Country Club</p>";
+            }
+          ?>  
+          <?php
+            if (time() < strtotime("03/15/2014 12:01AM")) {
+              echo "<p>Mar. 15 Reading Festival, 10:00 am to 4:00 pm, Harborside Event Center, Ft. Myers</p>";
+            }
+          ?>  
+          <?php
+            if (time() < strtotime("04/10/2014 12:01AM")) {
+              echo "<p>April 10 Death and Dessert, 2:00 pm to 4:00 pm, Library Meeting Room</p>";
+            }
+          ?>  
       </div>
     </div>
     <!-- #EndEditable --> <br />
