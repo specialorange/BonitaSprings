@@ -65,6 +65,17 @@ Library in southwest Florida</title>
       <br />
       <img alt="http://www.teenwritersbloc.com/wp-content/uploads/2011/06/Beach-Book.jpg" src="images/Beach-Book.jpg" height="238" width="466">
       <div id="content0">
+          <?php
+            if (time() < strtotime("04/11/2014 12:01AM")) {
+              echo "<h1>Highlighted Event</h1>
+        <p>Bonita Springs Public Library has a wonderful group of volunteers. Each one is hard working, helpful, dedicated, and all in all \"good people.\" We are so honored they have chosen to give their time and talents to helping here at Bonita.</p>
+        <p>To show our gratitude, we held an Appreciation Luncheon on February 28, to honor them. Our theme was: \"VOLUNTEERS, WORTH THEIR WEIGHT IN GOLD.\" Appreciation certificates, invitations, room decorations, and even their gift, revolved around the idea that our volunteers are a treasure.  \"Gold Coin\" medallions with each volunteers name were hung from the ceiling. The tables were strewn with gold coins and gold bars. Each volunteer received the gift of a coffee cup, with \"Thank You\" encircling the international symbol for libraries, hand-stenciled in gold, and filled with gold candies, including chocolate coins wrapped in gold foil.</p>
+        <p>Volunteers were recognized with certificates of appreciation. Catherine Vaughn announced the names of Presidential Award recipients. Several of our volunteers received the Presidential bronze award for over 100 volunteer hours. Cheila Springfield, now a library page, was recognized for achieving a silver Presidential award for over 400 hours of service. </p>
+        <p>We are sorry to announce the retirement of Ruth Cheney, a Bonita volunteer of over 40 years. Ruth has been with the library, since it was run entirely by volunteers, and is a founding member. She was recognized with a presentation of roses from head librarian, and friend, Maureen Pollock. Ruth is 94, and has a lifetime invitation to future luncheons. We thank her for all her hard work and efforts on behalf of the library over the years, and know she will visit often. We enjoyed good food, contributed by the Bonita staff and the Bonita Friends of the Library. Good food, good fun, good conversation, good people. What more can you ask for?</p>
+        <p>You can see the photos from the event <a href=\"galleries.php\">here</a>!</p>";
+            }
+          ?>  
+
         <h1> Upcoming Events</h1>
         <p >We support the library with a number of events through-out the year, including our popular book sales and author luncheons.</p>
         
@@ -83,7 +94,7 @@ Library in southwest Florida</title>
           <?php
             if (time() < strtotime("02/20/2014 12:01AM")) {
               echo "<p>Feb. 20 Morro Castle Cruise Ship Lecture, 2:00 pm, Library Meeting Room</p>
-              <p style=\"padding-left: 15px\">Reservations required : Reservations can be made at the Library with <a href=\"pdfs/LuncheonRes.pdf\">this form</a> and a check payment.</p><hr>";
+              <p style=\"padding-left: 15px\">Event is FREE!  Reservations required : Reservations can be made at the Library with <a href=\"pdfs/LuncheonRes.pdf\">this form</a>.</p><hr>";
             }
           ?>  
           <?php

@@ -61,6 +61,46 @@
 <div id="content">
   <h1>Event Galleries</h1>
 
+  <h3>February 2014 Volunteer Celebration</h3>
+  <div id="gallery-volunteer" class="gallery">
+    <a href="images/galleries/2014/volunteer/overview.jpg">
+      <img src="images/galleries/2014/volunteer/overview.jpg"
+      data-big="images/galleries/2014/volunteer/overview.jpg">
+    </a>
+    <a href="images/galleries/2014/volunteer/cake.jpg">
+      <img src="images/galleries/2014/volunteer/cake.jpg"
+      data-big="images/galleries/2014/volunteer/cake.jpg">
+    </a>
+    <a href="images/galleries/2014/volunteer/gifts.jpg">
+      <img src="images/galleries/2014/volunteer/gifts.jpg"
+      data-big="images/galleries/2014/volunteer/gifts.jpg">
+    </a>
+    <a href="images/galleries/2014/volunteer/linda.jpg">
+      <img src="images/galleries/2014/volunteer/linda.jpg"
+      data-big="images/galleries/2014/volunteer/linda.jpg">
+    </a>
+    <a href="images/galleries/2014/volunteer/eileen.jpg">
+      <img src="images/galleries/2014/volunteer/eileen.jpg"
+      data-big="images/galleries/2014/volunteer/eileen.jpg">
+    </a>
+    <a href="images/galleries/2014/volunteer/maureen.jpg">
+      <img src="images/galleries/2014/volunteer/maureen.jpg"
+      data-big="images/galleries/2014/volunteer/maureen.jpg">
+    </a>
+  </div>
+  <script>
+      Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+      Galleria.configure({
+          imageCrop: true,
+          transition: 'fade',
+          lightbox: true,
+          responsive: true,
+          autoplay: 3500
+      });
+      Galleria.run('#gallery-volunteer');
+  </script>
+  <p>Volunteer Celebration</p>
+
   <h3>January 2014 Author Luncheon: H. Terrell Griffin</h3>
   <div id="gallery-griffin" class="gallery">
     <a href="images/galleries/2014/luncheons/griffinbooks.jpg">
@@ -76,7 +116,7 @@
   <script>
       Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
       Galleria.configure({
-          imageCrop: false  ,
+          imageCrop: true,
           transition: 'fade',
           lightbox: true,
           responsive: true,
