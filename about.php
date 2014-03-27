@@ -85,28 +85,19 @@ Tuesday of the month, October through May.<br />
 <h1>About Us</h1>
 
 <h2 >Our Mission</h2>
-
-<p >The Friends of Bonita Springs Public Library, Inc. is a non-profit organization supporting the library located in Bonita Springs, Florida. </p>
-<p>Members are guided by a Board of Directors that acts as a liaison between the membership and the library administration. We aim to:</p>
-	<ul>
-		<li>Support the Bonita Springs library staff in realizing the needs of 
-		their patrons through communication with the library staff to better 
-		understand their short and long-term needs and goals;</li>
-		<li>Conduct fund-raising events that complement the library’s mission, 
-		and provide funding for special library projects that might otherwise 
-		not be met by the library’s operating budget;</li>
-		<li>Serve as advocates for local, state and national library issues; 
-		represent the library’s programs to legislators;</li>
-		<li>Develop a relationship with Lee County Library System Administration 
-		in order to discuss and potentially impact decisions that affect the 
-		Bonita Springs library;</li>
-		<li>Promote the library’s programs to the public, and educate residents 
-		and visitors about the needs of the Bonita Springs library;</li>
-		<li>Involve patrons in raising funds to meet the needs of the library 
-		through membership in the FOL and participation in FOL events;</li>
-		<li>Provide a calendar of enjoyable member and general community events 
-		such as informational lectures, author luncheons, movies and book sales.</li>
-	</ul>
+<p>Friends of the Bonita Springs Library, a voluntary, non-profit 501 (c) 3 organization, is made up of citizens who are interested in promoting the welfare and growth of the library, enriching its resources, and stimulating the  awareness and use of The Library.</p>
+<h2>Who We Are</h2>
+<p>The Friends of the Library of Bonita Springs, Florida is a volunteer non-profit group committed to supporting the Bonita Springs Library. The Friends are guided by a Board of Directors that acts as a liaison between the Friends and the library administration. We aim to:</p>
+<ul>	
+	<li>Support the library staff.</li>
+	<li>Conduct fund-raising events that complement the library’s mission, and through them provide funding for special library projects that might otherwise not be met by the library’s operating budget.</li>
+	<li>Serve as advocates for local, state, and national library issues; represent the library’s programs to legislators.</li>
+	<li>Develop a relationship with the Lee County Library System Administration in order to discuss and potentially impact decisions that affect the Bonita Springs Library.</li>
+	<li>Promote awareness about the needs of the Bonita Springs Library.</li>
+	<li>Provide a calendar of events such as informational lectures, author luncheons, and book sales.</li>
+	<li>Connect Friends to one another.</li>
+	<li>Share a love of books, reading and education.</li>
+</ul>
 
 </div>
 

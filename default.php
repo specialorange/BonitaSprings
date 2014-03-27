@@ -60,8 +60,8 @@
 	</script>
 
 	<ul id="slideshow" >
-	  <li><img src="images/home/membership1.jpg" alt="Memebrship" style="border:0px"/>
-	  			<div class="panel-overlay"><h3><a href="membership.php">Paypal donations and 2014 memberships now available.  Get your membership today!</a></h3></div>
+	  <li><img src="images/home/membership1.jpg" alt="Friendship" style="border:0px"/>
+	  			<div class="panel-overlay"><h3><a href="friendship.php">Paypal donations and 2014 Friendships now available.  Get your Friendship today!</a></h3></div>
 	  </li>
 <!-- Event   -->
           <?php

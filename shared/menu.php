@@ -10,7 +10,7 @@
   <br/>
   <div class="blue">
     <div class="topic">How to Help</div>
-    <a href="membership.php">Membership</a>
+    <a href="friendship.php">Friendship</a>
     <a href="help.php">Donate</a>
     <a href="volunteer.php">Volunteer</a>
     <a href="purchase.php">Products</a>
