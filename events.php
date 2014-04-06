@@ -65,7 +65,7 @@ Library in southwest Florida</title>
       <br />
       <img alt="http://www.teenwritersbloc.com/wp-content/uploads/2011/06/Beach-Book.jpg" src="images/Beach-Book.jpg" height="238" width="466">
       <div id="content0">
-          <?php
+<!--           <?php
             if (time() < strtotime("04/11/2014 12:01AM")) {
               echo "<h1>Highlighted Event</h1>
         <p>Bonita Springs Public Library has a wonderful group of volunteers. Each one is hard working, helpful, dedicated, and all in all \"good people.\" We are so honored they have chosen to give their time and talents to helping here at Bonita.</p>
@@ -75,18 +75,12 @@ Library in southwest Florida</title>
         <p>You can see the photos from the event <a href=\"galleries.php\">here</a>!</p>";
             }
           ?>  
-
+ -->
         <h1> Upcoming Events</h1>
         <p >We support the library with a number of events through-out the year, including our popular book sales and author luncheons.</p>
         
-        <h3 >2014 Upcoming Events</h3>
+        <!-- <h3 >2014 Upcoming Events</h3> -->
         <hr>
-          <?php
-            if (time() < strtotime("03/15/2014 12:01AM")) {
-              echo "<p>Mar. 15 Reading Festival, 10:00 am to 4:00 pm, Harborside Event Center, Ft. Myers</p>
-              <p style=\"padding-left: 15px\">Event is free</p><hr>";
-            }
-          ?>  
           <?php
             if (time() < strtotime("04/10/2014 12:01AM")) {
               echo "<div>
@@ -101,6 +95,50 @@ Library in southwest Florida</title>
                         <br>Lisa Black (formerly known as Elizabeth Becka) \"The Price of Innocence\"
                         <br>
                         <br>Following the panel discussion our guests will have a chance to chat with the authors, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p>
+                        <br>
+                      </div>
+                    </div>
+                    <hr style=\"clear:both;\">
+              ";
+            }
+          ?>  
+          <?php
+            if (time() < strtotime("01/22/2015 11:59PM")) {
+              echo "<div>
+                      <!--
+                      <div style=\"float:left\">
+                        <img alt=\"images/events/death.jpg\" src=\"images/events/death.jpg\" height=\"400\" width=\"300\"/>
+                      </div>
+                      -->
+                      <div>
+                        <p>January 22, 2015 Event, Time, & Place : To Be Announced</p>
+                        <!--
+                        <p style=\"padding-left: 15px\">Our guest author will be:
+                        <br>Diane Ketcham \"Naples: Paradise Can Be Deadly\", \"The Vanishing A-list\"
+                        <br>
+                        <br>Following the panel discussion our guests will have a chance to chat with the Diane, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p>
+                        <br>
+                        -->
+                      </div>
+                    </div>
+                    <hr style=\"clear:both;\">
+              ";
+            }
+          ?>  
+          <?php
+            if (time() < strtotime("02/26/2015 11:59PM")) {
+              echo "<div>
+                      <!--
+                      <div style=\"float:left\">
+                        <img alt=\"images/events/death.jpg\" src=\"images/events/death.jpg\" height=\"400\" width=\"300\"/>
+                      </div>
+                      -->
+                      <div>
+                        <p>February 26, 2015 Naples: Paradise Can Be Deadly, Time & Place : To Be Announced</p>
+                        <p style=\"padding-left: 15px\">Our guest author will be:
+                        <br>Diane Ketcham \"Naples: Paradise Can Be Deadly\", \"The Vanishing A-list\"
+                        <br>
+                        <br>Following the panel discussion our guests will have a chance to chat with the Diane, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p>
                         <br>
                       </div>
                     </div>

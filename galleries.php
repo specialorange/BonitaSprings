@@ -61,6 +61,42 @@
 <div id="content">
   <h1>Event Galleries</h1>
 
+  <h3>SW Reading Festival, Cookbook Sale, and Luncheon</h3>
+  <div id="gallery-cookbook" class="gallery">
+    <a href="images/galleries/2014/cookbook/burke.jpg">
+      <img src="images/galleries/2014/cookbook/burke.jpg"
+      data-big="images/galleries/2014/cookbook/burke.jpg">
+    </a>
+    <a href="images/galleries/2014/cookbook/maron.jpg">
+      <img src="images/galleries/2014/cookbook/maron.jpg"
+      data-big="images/galleries/2014/cookbook/maron.jpg">
+    </a>
+    <a href="images/galleries/2014/cookbook/brace.jpg">
+      <img src="images/galleries/2014/cookbook/brace.jpg"
+      data-big="images/galleries/2014/cookbook/brace.jpg">
+    </a>
+    <a href="images/galleries/2014/cookbook/williams.jpg">
+      <img src="images/galleries/2014/cookbook/williams.jpg"
+      data-big="images/galleries/2014/cookbook/williams.jpg">
+    </a>
+  </div>
+  <script>
+      Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+      Galleria.configure({
+          imageCrop: true,
+          transition: 'fade',
+          lightbox: true,
+          responsive: true,
+          autoplay: 3500
+      });
+      Galleria.run('#gallery-cookbook');
+  </script>
+  <p>Alifair Burke and Margaret Maron were two of many of the authors who spoke at the SW Reading Festival. Several of the Board of Directors attended and enjoyed talks by Ms. Maron, Alifair Burke, Sue Monk Kidd and others.</p>
+  <p>It was a day filled with entertaining talks, book signings and the opportunity to personally speak with the authors. The Friends sponsor this free community event. It reinforces our mission of promoting education and a love of reading.</p>
+
+  <p>Sheridan Brace, a Friends Volunteer, retired Home Economist, and present Canadian newspaper columnist, sat in the Library Foyer and sold cookbooks one week in March. She enjoyed talking with Library patrons about cookbooks and offered advice about the various cookbooks for sale. Her efforts paid off and she sold most of the cookbooks we had in stock.</p>
+  <p>Sara Williams, February Author Luncheon</p>
+
   <h3>February 2014 Volunteer Celebration</h3>
   <div id="gallery-volunteer" class="gallery">
     <a href="images/galleries/2014/volunteer/overview.jpg">
@@ -99,7 +135,6 @@
       });
       Galleria.run('#gallery-volunteer');
   </script>
-  <p>Volunteer Celebration</p>
 
   <h3>January 2014 Author Luncheon: H. Terrell Griffin</h3>
   <div id="gallery-griffin" class="gallery">
