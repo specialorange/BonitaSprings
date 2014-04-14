@@ -82,68 +82,55 @@ Library in southwest Florida</title>
         <!-- <h3 >2014 Upcoming Events</h3> -->
         <hr>
           <?php
-            if (time() < strtotime("04/10/2014 12:01AM")) {
+            if (time() < strtotime("07/31/2014 11:59PM")) {
               echo "<div>
-                      <div style=\"float:left\">
-                        <img alt=\"images/events/death.jpg\" src=\"images/events/death.jpg\" height=\"400\" width=\"300\"/>
-                      </div>
                       <div>
-                        <p>April 10 Death and Dessert, 2:00 pm to 4:00 pm, Library Meeting Room</p>
-                        <p style=\"padding-left: 15px\">Our guest authors will be:
-                        <br>Bennett Shelfer \"Drawing Dead\"
-                        <br>Ward Larsen \"Fly By Night\"
-                        <br>Lisa Black (formerly known as Elizabeth Becka) \"The Price of Innocence\"
-                        <br>
-                        <br>Following the panel discussion our guests will have a chance to chat with the authors, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p>
-                        <br>
+                        <p>Our 2013-2014 season for events has ended.  Please check back over the summer once we have confirmed our events for next season!</p>
                       </div>
                     </div>
                     <hr style=\"clear:both;\">
               ";
-            }
-          ?>  
-          <?php
-            if (time() < strtotime("01/22/2015 11:59PM")) {
-              echo "<div>
-                      <!--
-                      <div style=\"float:left\">
-                        <img alt=\"images/events/death.jpg\" src=\"images/events/death.jpg\" height=\"400\" width=\"300\"/>
-                      </div>
-                      -->
-                      <div>
-                        <p>January 22, 2015 Event, Time, & Place : To Be Announced</p>
+            } else {
+              if (time() < strtotime("01/22/2015 11:59PM")) {
+                echo "<div>
                         <!--
-                        <p style=\"padding-left: 15px\">Our guest author will be:
-                        <br>Diane Ketcham \"Naples: Paradise Can Be Deadly\", \"The Vanishing A-list\"
-                        <br>
-                        <br>Following the panel discussion our guests will have a chance to chat with the Diane, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p>
-                        <br>
+                        <div style=\"float:left\">
+                          <img alt=\"images/events/death.jpg\" src=\"images/events/death.jpg\" height=\"400\" width=\"300\"/>
+                        </div>
                         -->
+                        <div>
+                          <p>January 22, 2015 Event, Time, & Place : To Be Announced</p>
+                          <!--
+                          <p style=\"padding-left: 15px\">Our guest author will be:
+                          <br>Diane Ketcham \"Naples: Paradise Can Be Deadly\", \"The Vanishing A-list\"
+                          <br>
+                          <br>Following the panel discussion our guests will have a chance to chat with the Diane, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p>
+                          <br>
+                          -->
+                        </div>
                       </div>
-                    </div>
-                    <hr style=\"clear:both;\">
-              ";
-            }
-          ?>  
-          <?php
-            if (time() < strtotime("02/26/2015 11:59PM")) {
-              echo "<div>
-                      <!--
-                      <div style=\"float:left\">
-                        <img alt=\"images/events/death.jpg\" src=\"images/events/death.jpg\" height=\"400\" width=\"300\"/>
+                      <hr style=\"clear:both;\">
+                ";
+              };
+              if (time() < strtotime("02/26/2015 11:59PM")) {
+                echo "<div>
+                        <!--
+                        <div style=\"float:left\">
+                          <img alt=\"images/events/death.jpg\" src=\"images/events/death.jpg\" height=\"400\" width=\"300\"/>
+                        </div>
+                        -->
+                        <div>
+                          <p>February 26, 2015 Naples: Paradise Can Be Deadly, Time & Place : To Be Announced</p>
+                          <p style=\"padding-left: 15px\">Our guest author will be:
+                          <br>Diane Ketcham \"Naples: Paradise Can Be Deadly\", \"The Vanishing A-list\"
+                          <br>
+                          <br>Following the panel discussion our guests will have a chance to chat with the Diane, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p>
+                          <br>
+                        </div>
                       </div>
-                      -->
-                      <div>
-                        <p>February 26, 2015 Naples: Paradise Can Be Deadly, Time & Place : To Be Announced</p>
-                        <p style=\"padding-left: 15px\">Our guest author will be:
-                        <br>Diane Ketcham \"Naples: Paradise Can Be Deadly\", \"The Vanishing A-list\"
-                        <br>
-                        <br>Following the panel discussion our guests will have a chance to chat with the Diane, buy their books and partake of goodies and coffee. This event is free but reservations are necessary because of the size of the room. Please call the library reference desk at 533-4860 to make a reservation. Hurry! Don’t miss the fun.</p>
-                        <br>
-                      </div>
-                    </div>
-                    <hr style=\"clear:both;\">
-              ";
+                      <hr style=\"clear:both;\">
+                ";
+              };
             }
           ?>  
       </div>
